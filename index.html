@@ -358,7 +358,7 @@ border-bottom: 1px solid rgba(255,255,255,0.08);
 color: rgba(255,255,255,0.65);
 }
 .summary-row:last-child { border-bottom: none; }
-.summary-row.total { font-size: 20px; font-weight: 800; color: var(–gold); padding-top: 14px; }
+.summary-row.total { font-size: 20px; font-weight: 800; color: #ffffff; padding-top: 14px; }
 
 /* ── SUBMIT ── */
 .submit-btn {
@@ -450,7 +450,7 @@ font-size: 16px;
 <div class="hero">
   <img id="logoImg" alt="TAYSTE" class="logo-img" />
   <p class="hero-tagline">Fresh-pressed juices made with intention.</p>
-  <p class="hero-sub">Real fruit. Coconut water. No shortcuts. Just juice that tastes as good as it feels.</p>
+  <p class="hero-sub">Real fruit. No shortcuts. Just juice that tastes as good as it feels.</p>
 
   <div class="feature-row">
     <div class="feature-pill">
@@ -483,7 +483,7 @@ font-size: 16px;
         <div class="cd-block"><span class="cd-num" id="cd-secs">--</span><span class="cd-label">Secs</span></div>
       </div>
     </div>
-    <div class="countdown-location">📍 Pickup: Fri June 27 &amp; Sat June 28 &bull; Atlanta, GA</div>
+    <div class="countdown-location">📍 Pickup: Fri July 4 &amp; Sat July 5 &bull; Atlanta, GA</div>
   </div>
 </div>
 
@@ -567,8 +567,8 @@ font-size: 16px;
   <div class="juice-grid">
 
     <div class="juice-card">
-                <div class="juice-name" style="color:#D4A017">Renew</div>
-      <div class="juice-ingredients">Pineapple · Cucumber · Lemon · Mint · Coconut Water · Ginger</div>
+                <div class="juice-name" style="color:#D4A017;">Renew</div>
+      <div class="juice-ingredients">Pineapple · Cucumber · Lemon · Mint · Ginger</div>
       <div class="juice-benefit">Hydration · digestive reset · anti-inflammatory</div>
       <div class="qty-row">
         <button class="qty-btn" onclick="changeQty('renew',-1)">−</button>
@@ -578,8 +578,8 @@ font-size: 16px;
     </div>
 
     <div class="juice-card">
-                <div class="juice-name" style="color:#C05070">Bloom</div>
-      <div class="juice-ingredients">Watermelon · Lemon · Raspberry · Mint · Coconut Water</div>
+                <div class="juice-name" style="color:#D84A73;">Bloom</div>
+      <div class="juice-ingredients">Watermelon · Lemon · Raspberry · Mint</div>
       <div class="juice-benefit">Metabolism boost · anti-bloating · cleansing</div>
       <div class="qty-row">
         <button class="qty-btn" onclick="changeQty('bloom',-1)">−</button>
@@ -589,7 +589,7 @@ font-size: 16px;
     </div>
 
     <div class="juice-card">
-                <div class="juice-name" style="color:#5B8C3B">Oasis</div>
+                <div class="juice-name" style="color:#5B8C3B;">Oasis</div>
       <div class="juice-ingredients">Green Apple · Red Apple · Mango · Spinach · Mint · Lime</div>
       <div class="juice-benefit">Sustained energy · immune support · vitamins A, C & K</div>
       <div class="qty-row">
@@ -600,8 +600,8 @@ font-size: 16px;
     </div>
 
     <div class="juice-card">
-                <div class="juice-name" style="color:#A03030">Radiance</div>
-      <div class="juice-ingredients">Strawberry · Apple · Beet · Orange · Lime · Carrots · Coconut Water</div>
+                <div class="juice-name" style="color:#C62828;">Radiance</div>
+      <div class="juice-ingredients">Strawberry · Apple · Beet · Orange · Lime · Carrots</div>
       <div class="juice-benefit">Glowing skin · heart health · antioxidants</div>
       <div class="qty-row">
         <button class="qty-btn" onclick="changeQty('radiance',-1)">−</button>
@@ -646,13 +646,13 @@ font-size: 16px;
     <label class="day-card" onclick="selectDay('friday', this)">
       <input type="radio" name="pickupDay" value="friday" />
       <div class="day-name">🗓 Friday</div>
-      <div class="day-date">June 27</div>
+      <div class="day-date">July 4</div>
       <div class="day-time">5:00 PM – 7:00 PM</div>
     </label>
     <label class="day-card" onclick="selectDay('saturday', this)">
       <input type="radio" name="pickupDay" value="saturday" />
       <div class="day-name">🌅 Saturday</div>
-      <div class="day-date">June 28</div>
+      <div class="day-date">July 5</div>
       <div class="day-time">10:00 AM – 12:00 PM</div>
     </label>
   </div>
@@ -696,7 +696,7 @@ font-size: 16px;
   <div class="summary-box">
     <div class="summary-row"><span>Package</span><span id="sum-package">—</span></div>
     <div class="summary-row"><span>Fulfillment</span><span id="sum-fulfill">—</span></div>
-    <div class="summary-row total"><span>Total Due</span><span id="sum-total">$0</span></div>
+    <div class="summary-row total"><span style="color:#ffffff;">Total Due</span><span id="sum-total" style="color:#ffffff;">$0</span></div>
   </div>
 
   <div class="error-msg" id="errorMsg"></div>
